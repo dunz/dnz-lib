@@ -2,7 +2,7 @@
   "name": "dnz-lib",
   "version": "1.0.0",
   "description": "dunz library",
-  "main": "checkType.js",
+  "main": "checkType.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,5 @@
   "bugs": {
     "url": "https://github.com/dunz/dnz-lib/issues"
   },
-  "homepage": "https://github.com/dunz/dnz-lib#readme",
-  "type": "module"
+  "homepage": "https://github.com/dunz/dnz-lib#readme"
 }
