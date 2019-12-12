@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/dunz/dnz-lib/issues"
   },
-  "homepage": "https://github.com/dunz/dnz-lib#readme"
+  "homepage": "https://github.com/dunz/dnz-lib#readme",
+  "type": "module"
 }

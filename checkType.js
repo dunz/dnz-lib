@@ -1,5 +1,6 @@
 export const checkType = (param) => {
     var result = Object.prototype.toString.call(param);
+    console.log(result);
     return result;
 };
 
@@ -13,6 +14,10 @@ checkType(null);
 checkType(undefined);
 checkType(() => {});
 checkType(new Promise(() => {}));
-checkType(document.body);
-checkType(document);
-checkType(document.createElement('div'));
+
+/**
+ * invalid in Node
+ */
+// checkType(document.body);
+// checkType(document);
+// checkType(document.createElement('div'));
